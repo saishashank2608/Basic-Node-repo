@@ -11,6 +11,10 @@ app.get("/Youtube", (req, res)=>{
     res.send('<h1>this is youtube and this is so funny bro</h1>')
 })
 
+app.get("/preetham", (req, res)=>{
+    res.send('<h1>Hello folks i am preetham</h1>')
+})
+
 app.listen(process.env.PORT, ()=>{
     console.log(`The Server is running succesfully on ${port}`)
 })
