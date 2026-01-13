@@ -12,7 +12,7 @@ app.get("/Youtube", (req, res)=>{
 })
 
 app.get("/preetham", (req, res)=>{
-    res.send('<h1>Hello folks i am preetham</h1>')
+    res.send('<h1>Hello folks  am preetham</h1>')
 })
 
 app.listen(process.env.PORT, ()=>{
